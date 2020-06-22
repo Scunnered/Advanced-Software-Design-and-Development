@@ -1,0 +1,27 @@
+.edit-button {
+    -fx-background-color: white;
+    -fx-border-color: teal;
+    -fx-text-fill: teal;
+}
+
+.delete-button {
+    -fx-background-color: white;
+    -fx-border-color: crimson;
+    -fx-text-fill: crimson;
+}
+
+
+.edit-button:hover, .delete-button:hover {
+    -fx-border-width: 2px;
+}
+
+.edit-button:pressed {
+    -fx-background-color: teal;
+    -fx-text-fill: white;
+}
+
+.delete-button:pressed {
+    -fx-background-color: crimson;
+    -fx-text-fill: white;
+}
+

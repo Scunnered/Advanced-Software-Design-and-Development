@@ -1,0 +1,46 @@
+CM2100 Assessment 2 Coursework - Diary App GUI
+Ross Morrison - 1105864
+
+Statement of Compliance
+=======================
+
+*** For guidance, see the section "Testing and Statement of Compliance" in your coursework specifications. ***
+
+Requirement#1 Main Window Content
+- Tested and Working
+• Program runs as GUI
+• Menu bar included to house file, appointments and appointment diary
+• Main window has the means to create, modify, delete specify appointments and can select calendar month, dates with valid apointments and details of existing appointments.
+
+Requirement#2 Closing the System
+- Tested and Working
+• User can close the application via toolbar "file"
+• User can close the application via close "X" button
+• Program can be closed and not cause any crash issues
+
+Requirement#3 Personal Diary
+- Tested and Working
+• User can store and manage diary appointments
+• No login / logout function
+
+Requirement#4 Appointments
+- Tested and Working
+• Can store mutliple appointments
+• Appointments can be timed and untimed. Timed appointments run from starting date and time until an ending date and time via repeat appointment. Untimed appointments occur on a specific date and spans the whole day.
+• Appointments can be one-off or repeating. One-off appoitments only occur once and reparting appointments can occur daily, weekly or annually between dates.
+
+Requirement#5 Saving Appointments to a Text File
+- Tested and Working
+• Users can save appointments to a CVS file. This can be opened in excel or notepad
+• MainApp has a method to write to a file
+• User can select files to be saved
+
+Requirement#6 Loading Appointments from a Text File
+- Tested and Working (File is CVS which can alternate between excel and Notepad)
+• Users can load details of all appointments via files
+• MainApp class has a method that can be used to read from a file
+• User can elect files to be loaded (tested provided sample)
+
+Requirement#7 Search for Appointments
+- Tested and Working
+• Users can search for appointments with keywords and / or date

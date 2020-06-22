@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Text?>
+
+/**
+ * CM2100 Advanced Software Design and Development Assessment Part 2 - Coursework (Deadline: 13/01/2020, 16:00)
+ *
+ * @author Ross Morrison 1105864
+ */
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.diary.ui.controller.PreloaderController">
+   <children>
+      <ProgressIndicator layoutY="75.0" prefHeight="69.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <StackPane layoutY="135.0" prefHeight="96.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fx:id="loaderText" strokeType="OUTSIDE" strokeWidth="0.0" text="Program is Loading Artifacts. Please wait as the process is being carredi out" textAlignment="CENTER" wrappingWidth="507.7294921875" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
